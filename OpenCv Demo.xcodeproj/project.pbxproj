@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB83657021A8066E0064ABE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB83656F21A8066E0064ABE6 /* AppDelegate.swift */; };
+		BB83657221A8066E0064ABE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB83657121A8066E0064ABE6 /* ViewController.swift */; };
+		BB83657521A8066E0064ABE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB83657321A8066E0064ABE6 /* Main.storyboard */; };
+		BB83657721A806710064ABE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB83657621A806710064ABE6 /* Assets.xcassets */; };
+		BB83657A21A806710064ABE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB83657821A806710064ABE6 /* LaunchScreen.storyboard */; };
+		BB83658321A806EA0064ABE6 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB83658221A806EA0064ABE6 /* opencv2.framework */; };
+		BB83658521A806F10064ABE6 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB83658421A806F10064ABE6 /* AssetsLibrary.framework */; };
+		BB83658721A806F60064ABE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB83658621A806F60064ABE6 /* CoreGraphics.framework */; };
+		BB83658921A806FB0064ABE6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB83658821A806FB0064ABE6 /* CoreMedia.framework */; };
+		BB83658B21A806FF0064ABE6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB83658A21A806FF0064ABE6 /* CoreFoundation.framework */; };
+		BB83658D21A807040064ABE6 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB83658C21A807030064ABE6 /* Accelerate.framework */; };
+		BB83659121A807B50064ABE6 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB83659021A807B50064ABE6 /* OpenCVWrapper.mm */; };
+		BB83659421A8094E0064ABE6 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB83659321A8094E0064ABE6 /* opencv2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB83656C21A8066E0064ABE6 /* OpenCv Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenCv Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB83656F21A8066E0064ABE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB83657121A8066E0064ABE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB83657421A8066E0064ABE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB83657621A806710064ABE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB83657921A806710064ABE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB83657B21A806710064ABE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB83658221A806EA0064ABE6 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../Downloads/opencv2.framework; sourceTree = "<group>"; };
+		BB83658421A806F10064ABE6 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		BB83658621A806F60064ABE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB83658821A806FB0064ABE6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		BB83658A21A806FF0064ABE6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		BB83658C21A807030064ABE6 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		BB83658E21A807B50064ABE6 /* OpenCv Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCv Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		BB83658F21A807B50064ABE6 /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		BB83659021A807B50064ABE6 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		BB83659221A8082F0064ABE6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BB83659321A8094E0064ABE6 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../Downloads/opencv2.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB83656921A8066E0064ABE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB83658D21A807040064ABE6 /* Accelerate.framework in Frameworks */,
+				BB83659421A8094E0064ABE6 /* opencv2.framework in Frameworks */,
+				BB83658B21A806FF0064ABE6 /* CoreFoundation.framework in Frameworks */,
+				BB83658921A806FB0064ABE6 /* CoreMedia.framework in Frameworks */,
+				BB83658721A806F60064ABE6 /* CoreGraphics.framework in Frameworks */,
+				BB83658521A806F10064ABE6 /* AssetsLibrary.framework in Frameworks */,
+				BB83658321A806EA0064ABE6 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB83656321A8066E0064ABE6 = {
+			isa = PBXGroup;
+			children = (
+				BB83659321A8094E0064ABE6 /* opencv2.framework */,
+				BB83658F21A807B50064ABE6 /* OpenCVWrapper.h */,
+				BB83659021A807B50064ABE6 /* OpenCVWrapper.mm */,
+				BB83659221A8082F0064ABE6 /* PrefixHeader.pch */,
+				BB83656E21A8066E0064ABE6 /* OpenCv Demo */,
+				BB83656D21A8066E0064ABE6 /* Products */,
+				BB83658121A806EA0064ABE6 /* Frameworks */,
+				BB83658E21A807B50064ABE6 /* OpenCv Demo-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		BB83656D21A8066E0064ABE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB83656C21A8066E0064ABE6 /* OpenCv Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB83656E21A8066E0064ABE6 /* OpenCv Demo */ = {
+			isa = PBXGroup;
+			children = (
+				BB83656F21A8066E0064ABE6 /* AppDelegate.swift */,
+				BB83657121A8066E0064ABE6 /* ViewController.swift */,
+				BB83657321A8066E0064ABE6 /* Main.storyboard */,
+				BB83657621A806710064ABE6 /* Assets.xcassets */,
+				BB83657821A806710064ABE6 /* LaunchScreen.storyboard */,
+				BB83657B21A806710064ABE6 /* Info.plist */,
+			);
+			path = "OpenCv Demo";
+			sourceTree = "<group>";
+		};
+		BB83658121A806EA0064ABE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB83658C21A807030064ABE6 /* Accelerate.framework */,
+				BB83658A21A806FF0064ABE6 /* CoreFoundation.framework */,
+				BB83658821A806FB0064ABE6 /* CoreMedia.framework */,
+				BB83658621A806F60064ABE6 /* CoreGraphics.framework */,
+				BB83658421A806F10064ABE6 /* AssetsLibrary.framework */,
+				BB83658221A806EA0064ABE6 /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB83656B21A8066E0064ABE6 /* OpenCv Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB83657E21A806710064ABE6 /* Build configuration list for PBXNativeTarget "OpenCv Demo" */;
+			buildPhases = (
+				BB83656821A8066E0064ABE6 /* Sources */,
+				BB83656921A8066E0064ABE6 /* Frameworks */,
+				BB83656A21A8066E0064ABE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenCv Demo";
+			productName = "OpenCv Demo";
+			productReference = BB83656C21A8066E0064ABE6 /* OpenCv Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB83656421A8066E0064ABE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Ankit Jaiswal";
+				TargetAttributes = {
+					BB83656B21A8066E0064ABE6 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = BB83656721A8066E0064ABE6 /* Build configuration list for PBXProject "OpenCv Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB83656321A8066E0064ABE6;
+			productRefGroup = BB83656D21A8066E0064ABE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB83656B21A8066E0064ABE6 /* OpenCv Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB83656A21A8066E0064ABE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB83657A21A806710064ABE6 /* LaunchScreen.storyboard in Resources */,
+				BB83657721A806710064ABE6 /* Assets.xcassets in Resources */,
+				BB83657521A8066E0064ABE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB83656821A8066E0064ABE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB83657221A8066E0064ABE6 /* ViewController.swift in Sources */,
+				BB83657021A8066E0064ABE6 /* AppDelegate.swift in Sources */,
+				BB83659121A807B50064ABE6 /* OpenCVWrapper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB83657321A8066E0064ABE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB83657421A8066E0064ABE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB83657821A806710064ABE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB83657921A806710064ABE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB83657C21A806710064ABE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB83657D21A806710064ABE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB83657F21A806710064ABE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: aashish dhawan (KPF9FKVCA2)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = KPF9FKVCA2;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = "OpenCv Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crownstack.testers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.crownstack.testers";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenCv Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB83658021A806710064ABE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: aashish dhawan (KPF9FKVCA2)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = KPF9FKVCA2;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = "OpenCv Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crownstack.testers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.crownstack.testers";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenCv Demo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB83656721A8066E0064ABE6 /* Build configuration list for PBXProject "OpenCv Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB83657C21A806710064ABE6 /* Debug */,
+				BB83657D21A806710064ABE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB83657E21A806710064ABE6 /* Build configuration list for PBXNativeTarget "OpenCv Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB83657F21A806710064ABE6 /* Debug */,
+				BB83658021A806710064ABE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB83656421A8066E0064ABE6 /* Project object */;
+}
